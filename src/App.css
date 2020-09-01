@@ -1,0 +1,153 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
+.todo{
+  font-size: 1.6rem;
+  font-weight: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 40vw;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.items{
+  display: flex;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 3px grey;
+  justify-content: center;
+  margin: 4px;
+
+  
+}
+/* .items *{
+  display: flex;
+  color: blueviolet;
+} */
+.input{
+  width: 50vw;
+  padding: .7rem;
+  margin: 5px;
+  box-shadow: 2px 2px 4px grey;
+  border-radius: 20px;
+  border: 1px solid grey;
+  outline: none;
+}
+.option-form{
+  width: 52vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  
+}
+.input:focus{
+  border-radius: 20px;
+  border: 1px solid blue;
+}
+.add-btn1{
+  margin: 0 15px 15px 30px;
+  padding: 10px;
+  background-color: rgb(169, 169, 177);
+
+}
+.answer-btn{
+  justify-self: end;
+  padding: 5px 20px;
+  background-color: rgb(4, 156, 63);
+  border-radius: 15px;
+}
+.as-btns{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+ 
+}
+ ol{
+  list-style-type: upper-alpha;
+}
+.labels{
+  text-align: left;
+  color: aqua;
+  font-size: 24px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.ans-box{
+  display: flex;
+  justify-content: space-between;
+  width: 52vw;
+  margin: 0 auto;
+  
+}
+.btn2 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.btn2 button{
+  margin: 5px;
+  
+}
+.again{
+  padding: 7px;
+  background-color: rgb(4, 160, 74);
+  display: inline-block;
+  border-radius: 20px;
+  outline: none;
+  
+}
+.container{
+  text-align: center;
+  margin: 20px auto;
+  background-color: rgb(244, 244, 245);
+  width: 65vw;
+  padding: 2rem;
+  
+}
+.toggler{
+  color: brown;
+  
+}
+.pop{
+  background-color: grey;
+  color: rgb(1, 8, 15);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
